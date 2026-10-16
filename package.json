@@ -1,0 +1,10 @@
+{
+  "name": "mkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "mkit": "bin/mkit.js" },
+  "scripts": { "test": "node --test \"tests/**/*.test.js\"" },
+  "engines": { "node": ">=22" },
+  "dependencies": { "age-encryption": "0.3.1", "tar": "^7.5.22" }
+}
